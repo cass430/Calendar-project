@@ -73,6 +73,11 @@ h5 {
   margin-left: 30px;
 }
 
+.clear-button,
+.submit-button {
+  margin-top: 15px;
+}
+
 /* (Creating a basic analog clock with HTML, CSS, and JavaScript 2021) */
 
 .clock {
