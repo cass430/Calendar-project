@@ -35,30 +35,29 @@
     </button>
     <!-- (Creating a basic analog clock with HTML, CSS, and JavaScript 2021)-->
     <div class="clock-dial collapse collapse-horizontal" id="collapseClock">
-      <div class="clock-image">
-        <img
-          src="images/floor-grandfather-clocks-digital-clock-drawing-template-download-time-b73ed84dd33a0f3afddd1c6991ddca66.png"
-        />
-      </div>
-      <div class="point"></div>
-
-      <div class="minute-hand-wrapper" id="minute-hand">
-        <div class="minute-hand">
-          <div class="hand"></div>
-          <div class="arrow">V</div>
-        </div>
-      </div>
-
-      <div class="hour-hand-wrapper" id="hour-hand">
-        <div class="hour-hand">
-          <div class="hand"></div>
-          <div class="arrow">V</div>
-        </div>
-      </div>
-
-      <div class="second-hand-wrapper" id="second-hand">
-        <div class="second-hand">
-          <div class="hand"></div>
+      <p>
+        <small
+          >CSS sin() and cos() does <strong>NOT</strong> work in your
+          browser.</small
+        >
+      </p>
+      <div class="clock">
+        <div class="clock-face" id="app">
+          <time datetime="12:00">12</time>
+          <time datetime="1:00">1</time>
+          <time datetime="2:00">2</time>
+          <time datetime="3:00">3</time>
+          <time datetime="4:00">4</time>
+          <time datetime="5:00">5</time>
+          <time datetime="6:00">6</time>
+          <time datetime="7:00">7</time>
+          <time datetime="8:00">8</time>
+          <time datetime="9:00">9</time>
+          <time datetime="10:00">10</time>
+          <time datetime="11:00">11</time>
+          <span class="arm seconds"></span>
+          <span class="arm minutes"></span>
+          <span class="arm hours"></span>
         </div>
       </div>
     </div>
