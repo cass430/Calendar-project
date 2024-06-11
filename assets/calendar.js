@@ -102,12 +102,12 @@ function Calendar(elem) {
       "value",
       "Previous Month"
     );
-    prevButton.click,
-      function () {
-        cal.display(
-          new Date(displayDate.getFullYear(), displayDate.getMonth() - 1, 1)
-        );
-      };
+    prevButton.click(function () {
+      cal.display(
+        new Date(displayDate.getFullYear(), displayDate.getMonth() - 1, 1)
+      );
+    });
+
     prevButtonCell.append(prevButton);
     row.append(prevButtonCell);
 
